@@ -35,7 +35,7 @@ to the problem.
 
 ## Python
 
-A first attempt would involve [writing this in Python](TODO).  It sat
+A first attempt would involve [writing this in Python](solve-hex.py).  It sat
 there in silence for what seemed like a long time, not producing any
 solutions.
 
@@ -54,7 +54,7 @@ Now we'd only be waiting about 500 years for the program to run to
 completion.
 
 This and all following algorithms are implemented in the same [C++
-program](TODO).  You choose which one to run by giving a command-line
+program](solve-hex.cpp).  You choose which one to run by giving a command-line
 argument.  Some variants are run a number of times, to allow better
 timing measurement.
 
