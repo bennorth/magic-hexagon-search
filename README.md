@@ -35,9 +35,9 @@ to the problem.
 
 ## Python
 
-A first attempt would involve [writing this in Python](solve-hex.py).  It sat
-there in silence for what seemed like a long time, not producing any
-solutions.
+A first attempt would involve [writing this in Python](solve-hex.py).
+It sat there in silence for what seemed like a long time, not
+producing any solutions.
 
 Adding some timing code revealed that this code can evaluate 500k
 permutations per second.  Knowing how fast it runs, we can ask whether
@@ -54,9 +54,9 @@ Now we'd only be waiting about 500 years for the program to run to
 completion.
 
 This and all following algorithms are implemented in the same [C++
-program](solve-hex.cpp).  You choose which one to run by giving a command-line
-argument.  Some variants are run a number of times, to allow better
-timing measurement.
+program](solve-hex.cpp).  You choose which one to run by giving a
+command-line argument.  Some variants are run a number of times, to
+allow better timing measurement.
 
 The argument for this first attempt, the simple translation of the
 Python code, is `manual-perm-vec-vecs-check`, for reasons to be
